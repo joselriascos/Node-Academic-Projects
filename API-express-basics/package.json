@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "1.http.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev1": "node --watch 3.express.js"
   },
   "keywords": [],
   "author": "",

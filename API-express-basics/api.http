@@ -1,10 +1,15 @@
+### Hola mundo
+GET http://localhost:3000
+
+### 404
+GET http://localhost:3000/sadasdasd
+
 ### Recuperar información del pokemon ditto
 GET http://localhost:3000/pokemon/ditto
 
-
 ### Para crear un pokemon
 POST http://localhost:3000/pokemon
-Content-Type: 'application/json'
+Content-Type: application/json
 
 {
     "name": "ditto",
