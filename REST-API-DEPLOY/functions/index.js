@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000
 const ACCEPTED_ORIGINS = [
   'http://localhost:5173',
   'http://localhost:8888',
-  'movie-api-rest.netlify.app',
+  'https://movie-api-rest.netlify.app',
 ]
 
 const app = express()
