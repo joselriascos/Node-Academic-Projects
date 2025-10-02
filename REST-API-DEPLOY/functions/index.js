@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 })
 
 // Start server
-// export const handler = serverless(app)
+export const handler = serverless(app)
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`)
-})
+// app.listen(PORT, () => {
+//   console.log(`Server listening on port ${PORT}`)
+// })
