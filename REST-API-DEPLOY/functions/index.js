@@ -45,11 +45,6 @@ router.get('/', (req, res) => {
 })
 
 router.get('/movies', (req, res) => {
-  const origin = req.header('origin')
-  if (ACCEPTED_ORIGINS.includes(origin) || !origin) {
-    res.setHeader('Access-Control-Allow-Origin', origin)
-  }
-
   const { genre } = req.query
   if (genre) {
     const movies = MOVIES.filter((movie) =>
